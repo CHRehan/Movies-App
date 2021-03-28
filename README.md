@@ -1,6 +1,6 @@
 # SWVL Mobile App Developer Challenge
 
-<img src="https://github.com/CHRehan/Movies-App/blob/master/demo%20video.gif" width="250"/>
+<img align="right"  src="https://github.com/CHRehan/Movies-App/blob/master/demo%20video.gif" width="250"/>
 
 
 
