@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movies Detail</string>
+    <string name="dummy_movie_title">(500) Days of Summer</string>
+    <string name="rating_year">Rating: %1$d : Year: %2$d</string>
+    <string name="movie_name">Movie Name: %1$s</string>
+    <string name="cast">Cast:</string>
+    <string name="genres">Genres:</string>
+    <string name="image_url">https://live.staticflickr.com/%1$s/%2$s_%3$s.jpg</string>
+    <string name="search">Search</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="movies">Movies</string>
+</resources>
