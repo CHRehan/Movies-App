@@ -1,6 +1,7 @@
 # SWVL Mobile App Developer Challenge
 
-![Demo Video](https://github.com/CHRehan/Movies-App/blob/master/demo%20video.gif)
+<img src="https://github.com/CHRehan/Movies-App/blob/master/demo%20video.gif" width="250"/>
+
 
 
 A Movies App is a simple app that loads information from local JSON and Flickr Photo Image API to show an approach to using some of the best practices in Android Development. 
