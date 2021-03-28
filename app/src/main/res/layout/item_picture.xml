@@ -3,9 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/_120sdp"
+    xmlns:tools="http://schemas.android.com/tools"
     android:foreground="?attr/selectableItemBackgroundBorderless"
     app:cardCornerRadius="@dimen/_6sdp"
     app:cardElevation="@dimen/_2sdp">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        tools:visibility="gone" />
 
     <ImageView
         android:id="@+id/image"

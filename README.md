@@ -1,4 +1,4 @@
-# Movies Sample App for SWVL Mobile App Developer Challenge
+# SWVL Mobile App Developer Challenge
 
 
 A Movies App is a simple app that loads information from local JSON and Flickr Photo Image API to show an approach to using some of the best practices in Android Development. 
@@ -13,7 +13,8 @@ Including:
  * Okhttp3
  * Room is not used currently but will use in future to store the fetched data from Flickr
  * Navigation
-
+![Demo Video](https://github.com/CHRehan/Movies-App/blob/master/demo%20video.gif)
+ 
 All the dependencies are declared in the build.gradle file. No need to take some extra measure. 
 Just import this project via Android Studio :)
  

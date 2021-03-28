@@ -11,6 +11,7 @@ import android.widget.Toast.LENGTH_LONG
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.movies.BuildConfig
 import com.example.movies.R
 import com.example.movies.data.entities.flickrPhoto.Photo
@@ -20,7 +21,7 @@ import com.example.movies.utils.MarginItemDecoration
 import com.example.movies.utils.Resource
 import com.example.movies.utils.autoCleared
 import dagger.hilt.android.AndroidEntryPoint
-import kotlin.collections.HashMap
+
 
 @AndroidEntryPoint
 class MovieDetailFragment : Fragment() {
@@ -125,6 +126,7 @@ class MovieDetailFragment : Fragment() {
 
     private fun setupImageRecyclerView(photos: List<Photo>?) {
         val adapter = MoviePicturesAdapter()
+
         binding.moviePictures.layoutManager = GridLayoutManager(context, 2)
         binding.moviePictures.adapter = adapter
         binding.moviePictures.addItemDecoration(
