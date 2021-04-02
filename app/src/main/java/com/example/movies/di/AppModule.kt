@@ -52,7 +52,5 @@ object AppModule {
     @Singleton
     @Provides
     fun provideMovieRemoteDataSource(movieService: MovieService) =
-        MovieRemoteDataSource(
-            movieService
-        )
+        MovieRemoteDataSource(movieService)
 }

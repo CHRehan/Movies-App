@@ -2,7 +2,6 @@ package com.example.movies.data.entities.movies
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.example.movies.ui.movies.DynamicSearchAdapter
 
 class Movie() : Parcelable, Comparable<Movie> {
 
