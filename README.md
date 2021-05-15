@@ -1,4 +1,4 @@
-# SWVL Mobile App Developer Challenge
+# Sample App to demonstrate Master Detail Flow in Kotlin using Architecture patterns.
 
 <img align="right"  src="https://github.com/CHRehan/Movies-App/blob/master/demo%20video.gif" width="250"/>
 
@@ -16,6 +16,7 @@ Including:
  * Okhttp3
  * Room is not used currently but will use in future to store the fetched data from Flickr
  * Navigation
+ * TestCases - Pending
 
  
 All the dependencies are declared in the build.gradle file. No need to take some extra measure. 
